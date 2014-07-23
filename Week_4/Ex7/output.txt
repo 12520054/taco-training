@@ -1,0 +1,5 @@
+[STDIO]
+domain=http://www.stdio.vn
+group=https://www.facebook.com/groups/stdiotraining
+city=Ho Chi Minh
+age=1
