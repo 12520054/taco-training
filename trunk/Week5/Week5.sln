@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual C++ Express 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DEmo_1", "Week5\Week5.vcproj", "{083990E3-F5CF-4FF7-AF27-AD9466060863}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ex1", "Ex1\Ex1.vcproj", "{02266D14-ABD9-49FC-B09F-FD469497A389}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ex2", "Ex2\Ex2.vcproj", "{73B82081-2BD2-4DA1-9095-1678C1C68F74}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{083990E3-F5CF-4FF7-AF27-AD9466060863}.Debug|Win32.ActiveCfg = Debug|Win32
+		{083990E3-F5CF-4FF7-AF27-AD9466060863}.Debug|Win32.Build.0 = Debug|Win32
+		{083990E3-F5CF-4FF7-AF27-AD9466060863}.Release|Win32.ActiveCfg = Release|Win32
+		{083990E3-F5CF-4FF7-AF27-AD9466060863}.Release|Win32.Build.0 = Release|Win32
+		{02266D14-ABD9-49FC-B09F-FD469497A389}.Debug|Win32.ActiveCfg = Debug|Win32
+		{02266D14-ABD9-49FC-B09F-FD469497A389}.Debug|Win32.Build.0 = Debug|Win32
+		{02266D14-ABD9-49FC-B09F-FD469497A389}.Release|Win32.ActiveCfg = Release|Win32
+		{02266D14-ABD9-49FC-B09F-FD469497A389}.Release|Win32.Build.0 = Release|Win32
+		{73B82081-2BD2-4DA1-9095-1678C1C68F74}.Debug|Win32.ActiveCfg = Debug|Win32
+		{73B82081-2BD2-4DA1-9095-1678C1C68F74}.Debug|Win32.Build.0 = Debug|Win32
+		{73B82081-2BD2-4DA1-9095-1678C1C68F74}.Release|Win32.ActiveCfg = Release|Win32
+		{73B82081-2BD2-4DA1-9095-1678C1C68F74}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual C++ Express 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ex1", "Ex1\Ex1.vcproj", "{FFDAAA41-CF08-4238-AC31-48327C9E42E5}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Mine", "Mine\Mine.vcproj", "{EBD740E6-3A22-4D03-9C46-327954E135EB}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Fibo", "Fibo\Fibo.vcproj", "{E2E579CB-B268-4BEB-857C-8A4BB67DDCFD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FFDAAA41-CF08-4238-AC31-48327C9E42E5}.Debug|Win32.ActiveCfg = Debug|Win32
+		{FFDAAA41-CF08-4238-AC31-48327C9E42E5}.Debug|Win32.Build.0 = Debug|Win32
+		{FFDAAA41-CF08-4238-AC31-48327C9E42E5}.Release|Win32.ActiveCfg = Release|Win32
+		{FFDAAA41-CF08-4238-AC31-48327C9E42E5}.Release|Win32.Build.0 = Release|Win32
+		{EBD740E6-3A22-4D03-9C46-327954E135EB}.Debug|Win32.ActiveCfg = Debug|Win32
+		{EBD740E6-3A22-4D03-9C46-327954E135EB}.Debug|Win32.Build.0 = Debug|Win32
+		{EBD740E6-3A22-4D03-9C46-327954E135EB}.Release|Win32.ActiveCfg = Release|Win32
+		{EBD740E6-3A22-4D03-9C46-327954E135EB}.Release|Win32.Build.0 = Release|Win32
+		{E2E579CB-B268-4BEB-857C-8A4BB67DDCFD}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E2E579CB-B268-4BEB-857C-8A4BB67DDCFD}.Debug|Win32.Build.0 = Debug|Win32
+		{E2E579CB-B268-4BEB-857C-8A4BB67DDCFD}.Release|Win32.ActiveCfg = Release|Win32
+		{E2E579CB-B268-4BEB-857C-8A4BB67DDCFD}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
