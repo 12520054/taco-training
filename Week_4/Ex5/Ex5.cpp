@@ -13,14 +13,15 @@ int main()
 	if(!file)
 	{
 		perror("Can't find this fucking file");
-		return 69;
+		return 1;
 	}
 	else
 	{
 		while(!feof(file))
 		{
 			c_Buffer = fgetc(file);
-			printf("%d ",c_Buffer);
+			if(c_Buffer != EOF)
+				printf("%d ",c_Buffer);
 		};
 	}
 	fclose(file);
