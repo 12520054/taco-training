@@ -12,7 +12,7 @@ int main()
 	FILE* file = fopen(fileName, "rb");
 	if(!file)
 	{
-		perror("Can't find this fucking file");
+		perror("Can't find file");
 		return 1;
 	}
 	else
@@ -20,8 +20,7 @@ int main()
 		while(!feof(file))
 		{
 			c_Buffer = fgetc(file);
-			if(c_Buffer != EOF)
-				printf("%d ",c_Buffer);
+			printf("%d ",c_Buffer);
 		};
 	}
 	fclose(file);
