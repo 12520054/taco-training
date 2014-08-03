@@ -39,9 +39,9 @@ bool eraseComment(char* fileName)
 	else
 	{
 		char* strBuff = new char[1024];
-		while(!feof(file))
+		while(!feof(sourceFile))
 		{
-			fgets(strBuff, 1024, file);
+			fgets(strBuff, 1024, sourceFile);
 			for(int i = 0; i < strlen(strBuff); i++)
 			{
 				if(strBuff[i] == '/')
@@ -57,23 +57,23 @@ bool eraseComment(char* fileName)
 					}
 				}
 			}
-			fputs(strBuff, file1);
+			fputs(strBuff, desFile);
 		}
 		
-		fclose(file);
-		fclose(file1);
+		fclose(sourceFile);
+		fclose(desFile);
 
-		file = fopen(fileName, "w");
-		file1 = fopen("Template.txt", "r");
+		sourceFile = fopen(fileName, "w");
+		desFile = fopen("Template.txt", "r");
 
-		while(!feof(file1))
+		while(!feof(desFile))
 		{
-			fgets(strBuff, 1024, file1);
-			fputs(strBuff, file);
+			fgets(strBuff, 1024, desFile);
+			fputs(strBuff, sourceFile);
 		};
 
-		fclose(file);
-		fclose(file1);
+		fclose(sourceFile);
+		fclose(desFile);
 		delete[] strBuff;
 		remove("Template.txt");
 		return true;
