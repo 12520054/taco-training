@@ -1,27 +1,19 @@
 #include <stdio.h>
-#include <string.h>
-#include <string>
-
 int main()
 {
-	printf("Input fileName link: ");
-	char* fileName = new char[50];
-	char c_Buffer;
-	fflush(stdin);
-	gets(fileName);
-	FILE* file = fopen(fileName, "rb");
+	int	width, height;
+
+	FILE* file = fopen("TD.tga", "rb");
 	if(!file)
-	{
-		perror("Can't find file");
-		return 1;
-	}
+		perror("Can't open this file!!\n");
 	else
 	{
-		while(!feof(file))
-		{
-			c_Buffer = fgetc(file);
-			printf("%d ",c_Buffer);
-		};
+		short buff;
+		fseek(file, 12, 0);
+		fread(&buff, 1, 2, file);
+		printf("Width: %d\n", buff);
+		fread(&buff, 1, 2, file);
+		printf("Height: %d\n", buff);
 	}
 	fclose(file);
 	return 0;
