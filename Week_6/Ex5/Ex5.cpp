@@ -7,5 +7,6 @@ int main()
 }
 void swap(int* a, int* b)
 {
-
+	*b = *a ^ *b;
+	
 }

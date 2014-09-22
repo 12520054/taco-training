@@ -110,23 +110,17 @@ def DrawTime(surface, FirstTick, Time):
         pygame.draw.rect(surface, R_5, (600, 50 + 90*4, 50, 90))
         pass
     if (TotalTime < SecondTime) & (TotalTime >= FirstTime):
-        #pygame.draw.rect(surface, R_1, (600, 50 + TotalTime*PixelPerSec, 50, 90 - TotalTime*PixelPerSec))
         pygame.draw.rect(surface, R_2, (600, 50 + TotalTime*PixelPerSec, 50, 180 -  TotalTime*PixelPerSec))
         pygame.draw.rect(surface, R_3, (600, 50 + 90*2, 50, 90))
         pygame.draw.rect(surface, R_4, (600, 50 + 90*3, 50, 90))
         pygame.draw.rect(surface, R_5, (600, 50 + 90*4, 50, 90))
         pass
     if (TotalTime < ThirdTime) & (TotalTime >= SecondTime):
-        #pygame.draw.rect(surface, R_1, (600, 50 + TotalTime*PixelPerSec, 50, 90 - TotalTime*PixelPerSec))
-        #pygame.draw.rect(surface, R_2, (600, 50 + TotalTime*PixelPerSec, 50, 180 -  TotalTime*PixelPerSec))
         pygame.draw.rect(surface, R_3, (600, 50 + TotalTime*PixelPerSec, 50, 270 -  TotalTime*PixelPerSec))
         pygame.draw.rect(surface, R_4, (600, 50 + 90*3, 50, 90))
         pygame.draw.rect(surface, R_5, (600, 50 + 90*4, 50, 90))
         pass 
     if (TotalTime < FourTime) & (TotalTime >= ThirdTime):
-        #pygame.draw.rect(surface, R_1, (600, 50 + TotalTime*PixelPerSec, 50, 90 - TotalTime*PixelPerSec))
-        #pygame.draw.rect(surface, R_2, (600, 50 + TotalTime*PixelPerSec, 50, 180 -  TotalTime*PixelPerSec))
-        #pygame.draw.rect(surface, R_3, (600, 50 + TotalTime*PixelPerSec, 50, 270 -  TotalTime*PixelPerSec))
         pygame.draw.rect(surface, R_4, (600, 50 + TotalTime*PixelPerSec, 50, 360 - TotalTime*PixelPerSec))
         pygame.draw.rect(surface, R_5, (600, 50 + 90*4, 50, 90))
         pass 
